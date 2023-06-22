@@ -64,7 +64,7 @@ git配置有三个级别，分别对应三个文件
 
 详细内容参见官网https://git-scm.com/doc
 
-<img src="https://github.com/ForcemCS/CICD\ima\基础命令.PNG" alt="基础命令" style="zoom:66%;" />
+<img src=".\ima\基础命令.PNG" alt="基础命令" style="zoom:66%;" />
 
 查看提交：
 
@@ -80,11 +80,11 @@ git log --author="USER.NAME"
 
 + 新增文件
 
-  <img src="https://github.com/ForcemCS/CICD\ima\文件状态对比1.PNG" alt="基础命令" style="zoom:66%;" />
+  <img src=".\ima\文件状态对比1.PNG" alt="基础命令" style="zoom:66%;" />
 
 + 修改文件
 
-  <img src="https://github.com/ForcemCS/CICD\ima\文件状态对比2.PNG" alt="基础命令" style="zoom:66%;" />
+  <img src=".\ima\文件状态对比2.PNG" alt="基础命令" style="zoom:66%;" />
 
 对比文件的变动
 
@@ -120,7 +120,7 @@ temp/
 
 ### 撤销操作和远程库
 
-<img src="https://github.com/ForcemCS/CICD\ima\提交历史.png" alt="提交历史" style="zoom:50%;" />
+<img src=".\ima\提交历史.png" alt="提交历史" style="zoom:50%;" />
 
 没有直接指向最新一次的提交，而是指向当前分支名称（又指向了最新一次的提交）
 
@@ -472,7 +472,7 @@ git merge <branchName>     （将指定的其它分支合并至当前分支）
 
 分支合并存在两种情形
 
-<img src="https://github.com/ForcemCS/CICD\ima\分支合并.png" alt="分支合并" style="zoom:38%;" />
+<img src=".\ima\分支合并.png" alt="分支合并" style="zoom:38%;" />
 
 + 快进式合并（Fast-Forward Merge）
 
@@ -538,7 +538,7 @@ git merge <branchName>     （将指定的其它分支合并至当前分支）
 
   在三方合并中存在一个问题：devel分支提交过很多次，当合并到master分支的时候，master分支多出来很多内容(这就需要标识详很多的详细信息)，当devel分支删除掉的时候，我们是没办法获取这些详细信息的
 
-+ ![变基](https://github.com/ForcemCS/CICD\ima\变基.png)
++ ![变基](.\ima\变基.png)
 
 ​        5 和6的父提交不再是2，而是变为了4，commit5 和commit6看到的基变化了，可以认为是产生了两个新的commit
 
@@ -626,27 +626,27 @@ root@slb01:~/gitest/.git/refs# git branch -vv   分支间的关联关系
 
 #### 远程仓库的使用
 
-![远程仓库使用1](https://github.com/ForcemCS/CICD\ima\远程仓库使用1.png)
+![远程仓库使用1](.\ima\远程仓库使用1.png)
 
-![远程仓库使用2](https://github.com/ForcemCS/CICD\ima\远程仓库使用2.png)
+![远程仓库使用2](.\ima\远程仓库使用2.png)
 
 ### Git项目团队协作的工作流模型
 
 #### Git的分支模型
 
-![Git分支模型1](https://github.com/ForcemCS/CICD\ima\Git分支模型1.png)
+![Git分支模型1](.\ima\Git分支模型1.png)
 
-![Git分支模型1](https://github.com/ForcemCS/CICD\ima\Git分支模型2.png)
+![Git分支模型1](.\ima\Git分支模型2.png)
 
-![Git分支模型1](https://github.com/ForcemCS/CICD\ima\Git分支模型3.png)
+![Git分支模型1](.\ima\Git分支模型3.png)
 
-![Git分支模型1](https://github.com/ForcemCS/CICD\ima\Git分支模型4.png)
+![Git分支模型1](.\ima\Git分支模型4.png)
 
-![Git分支模型1](https://github.com/ForcemCS/CICD\ima\Git分支模型5.png)
+![Git分支模型1](.\ima\Git分支模型5.png)
 
 git-flow模型
 
-![Git-flow模型](https://github.com/ForcemCS/CICD\ima\Git-flow模型1.png)
+![Git-flow模型](.\ima\Git-flow模型1.png)
 
 
 
@@ -654,13 +654,13 @@ git-flow模型
 
 基于团队内部共享的工作流模型
 
-![基于团队内部共享的工作流模型](https://github.com/ForcemCS/CICD\ima\基于团队内部共享的工作流模型.png)
+![基于团队内部共享的工作流模型](.\ima\基于团队内部共享的工作流模型.png)
 
 基于Fork的工作流
 
-![Git-flow模型2](https://github.com/ForcemCS/CICD\ima\Git-flow模型2.png)
+![Git-flow模型2](.\ima\Git-flow模型2.png)
 
-![基于fork的工作流](https://github.com/ForcemCS/CICD\ima\基于fork的工作流.png)
+![基于fork的工作流](.\ima\基于fork的工作流.png)
 
 总结：
 
@@ -697,7 +697,7 @@ GitLab:
 
 ### Gitlab组件
 
-<img src="https://github.com/ForcemCS/CICD\ima\Gitlab组件.png" alt="Gitlab组件" style="zoom: 35%;" />
+<img src=".\ima\Gitlab组件.png" alt="Gitlab组件" style="zoom: 35%;" />
 
 ### Gitlab部署
 
@@ -748,53 +748,53 @@ https://packages.gitlab.com/gitlab  下载对应系统的deb包
 
 + 常用设置
 
-  ![常用设置](https://github.com/ForcemCS/CICD\ima\常用设置.png)
+  ![常用设置](.\ima\常用设置.png)
 
 + 创建tom jerry两个用户
 
-  ![创建用户1](https://github.com/ForcemCS/CICD\ima\admin管理.png)
+  ![创建用户1](.\ima\admin管理.png)
 
-  ![创建用户1](https://github.com/ForcemCS/CICD\ima\创建用户1.png)
+  ![创建用户1](.\ima\创建用户1.png)
 
-  ![创建用户2](https://github.com/ForcemCS/CICD\ima\创建用户2.png)
+  ![创建用户2](.\ima\创建用户2.png)
 
-  ![创建用户3](https://github.com/ForcemCS/CICD\ima\创建用户3.png)
+  ![创建用户3](.\ima\创建用户3.png)
 
   以同样的方式创建jerry
 
 + 创建Groups
 
-  ![创建组1](https://github.com/ForcemCS/CICD\ima\创建组1.png)
+  ![创建组1](.\ima\创建组1.png)
 
-  ![创建组2](https://github.com/ForcemCS/CICD\ima\创建组2.png)
+  ![创建组2](.\ima\创建组2.png)
 
 + 接下来邀请成员
 
-  ![组成员](https://github.com/ForcemCS/CICD\ima\组成员.png)
+  ![组成员](.\ima\组成员.png)
 
-  ![组成员2](https://github.com/ForcemCS/CICD\ima\组成员2.png)
+  ![组成员2](.\ima\组成员2.png)
 
 ### 组中创建项目
 
 以root,tom或jerry都可以创建，在一个组中的所有成员都可以pull push这个项目的
 
-![组中创建项目](https://github.com/ForcemCS/CICD\ima\组中创建项目.png)
+![组中创建项目](.\ima\组中创建项目.png)
 
-![组中创建项目2](https://github.com/ForcemCS/CICD\ima\组中创建项目2.png)
+![组中创建项目2](.\ima\组中创建项目2.png)
 
-![组中创建项目3](https://github.com/ForcemCS/CICD\ima\组中创建项目3.png)
+![组中创建项目3](.\ima\组中创建项目3.png)
 
 可以通过如下的方式修改权限
 
-![组中创建项目4](https://github.com/ForcemCS/CICD\ima\组中创建项目4.png)
+![组中创建项目4](.\ima\组中创建项目4.png)
 
 导入站点的项目
 
-![组中创建项目5](https://github.com/ForcemCS/CICD\ima\组中创建项目5.png)
+![组中创建项目5](.\ima\组中创建项目5.png)
 
 接下来登陆tom或者jerry查看是否可以看到这个项目
 
-![组中创建项目6](https://github.com/ForcemCS/CICD\ima\组中创建项目6.png)
+![组中创建项目6](.\ima\组中创建项目6.png)
 
 接下来我们以jerry用户开发代码，root用户进行管理（基于共享库的协同）
 
@@ -840,33 +840,33 @@ root@slb01:~/jerry/spring-boot-helloWorld# git push --set-upstream origin featur
 
 此时在自己的账号下会出现一个推送消息
 
-![组中创建项目7](https://github.com/ForcemCS/CICD\ima\组中创建项目7.png)
+![组中创建项目7](.\ima\组中创建项目7.png)
 
 可以更改想要合并到的分支
 
-![组中创建项目8](https://github.com/ForcemCS/CICD\ima\组中创建项目8.png)
+![组中创建项目8](.\ima\组中创建项目8.png)
 
 指派给成员进行审核
 
-![组中创建项目9](https://github.com/ForcemCS/CICD\ima\组中创建项目9.png)
+![组中创建项目9](.\ima\组中创建项目9.png)
 
 接下来回到Administrator账户
 
-![组中创建项目11](https://github.com/ForcemCS/CICD\ima\组中创建项目11.png)
+![组中创建项目11](.\ima\组中创建项目11.png)
 
-![组中创建项目10](https://github.com/ForcemCS/CICD\ima\组中创建项目10.png)
+![组中创建项目10](.\ima\组中创建项目10.png)
 
-![组中创建项目12](https://github.com/ForcemCS/CICD\ima\组中创建项目12.png)
+![组中创建项目12](.\ima\组中创建项目12.png)
 
 接下来创建一个可以登陆的用户，但是不属于Deveops组，但是可以clone这个项目，也就是基于fork的工作流
 
 然后在浏览器输入http://gitlab.wukui.com/devops（虽然不在Deveops组，但是可以clone这个项目，因为我们在定义组的时候，定义为内部的，只要可以登陆这个系统的用户，都可以clone这个项目）
 
-![模拟fork工作流](https://github.com/ForcemCS/CICD\ima\模拟fork工作流.png)
+![模拟fork工作流](.\ima\模拟fork工作流.png)
 
-![模拟fork工作流2](https://github.com/ForcemCS/CICD\ima\模拟fork工作流2.png)
+![模拟fork工作流2](.\ima\模拟fork工作流2.png)
 
-![模拟fork工作流3](https://github.com/ForcemCS/CICD\ima\模拟fork工作流3.png)
+![模拟fork工作流3](.\ima\模拟fork工作流3.png)
 
 ```shell
 root@slb01:~# mkdir george  
@@ -894,7 +894,7 @@ root@slb01:~/george/spring-boot-helloWorld# git commit  -m "modify README.md by 
 root@slb01:~/george/spring-boot-helloWorld# git push --set-upstream origin feature/001
 ```
 
-![模拟fork工作流4](https://github.com/ForcemCS/CICD\ima\模拟fork工作流4.png)
+![模拟fork工作流4](.\ima\模拟fork工作流4.png)
 
 同时对于george来说，需要添加一个上游库，用来拉取其他组织提交的新代码
 
@@ -910,9 +910,9 @@ pull的时候从upstream push到origin
 
 接下来创建合并请求，合到其他组织的devops项目下
 
-![模拟fork工作流5](https://github.com/ForcemCS/CICD\ima\模拟fork工作流5.png)
+![模拟fork工作流5](.\ima\模拟fork工作流5.png)
 
-![模拟fork工作流6](https://github.com/ForcemCS/CICD\ima\模拟fork工作流6.png)
+![模拟fork工作流6](.\ima\模拟fork工作流6.png)
 
 回到管理员用户
 
@@ -972,9 +972,9 @@ Jenkins：
 
 根据官网手册选择适合的版本进行安装
 
-![jenkins用户](https://github.com/ForcemCS/CICD\ima\jenkins用户.png)
+![jenkins用户](.\ima\jenkins用户.png)
 
-![jenkins用户2](https://github.com/ForcemCS/CICD\ima\jenkins用户2.png)
+![jenkins用户2](.\ima\jenkins用户2.png)
 
 对于每一个jenkins job 在本都的jenkins的工作目录下建一个子目录，通常与job name一致，基于这个子目录完成一系列的自动化操作
 
@@ -987,33 +987,33 @@ Jenkins：
 + 为确保自动化的Job能自动访问到这些信息，Jenkins则通过“凭据”来保存它们
   + 创建的“凭据”可基于其名称等进行引用
 
-![Jenkins凭据](https://github.com/ForcemCS/CICD\ima\Jenkins凭据.png)
+![Jenkins凭据](.\ima\Jenkins凭据.png)
 
 Credentials :增加和删除凭据
 
 凭据配置：凭据保存在何处
 
-![凭据1](https://github.com/ForcemCS/CICD\ima\凭据1.png)
+![凭据1](.\ima\凭据1.png)
 
 以jerry用户的身份去访问gitlab中的devops项目
 
-<img src="https://github.com/ForcemCS/CICD\ima\cicd.png" alt="cicd" style="zoom:50%;" />
+<img src=".\ima\cicd.png" alt="cicd" style="zoom:50%;" />
 
-![凭据2](https://github.com/ForcemCS/CICD\ima\凭据2.png)
+![凭据2](.\ima\凭据2.png)
 
 为流水线添加一个input,会将对应的仓库clone到本地，把工作目录切换到项目之下，执行相关的命令
 
-![test1](https://github.com/ForcemCS/CICD\ima\test1.png)
+![test1](.\ima\test1.png)
 
-![test2](https://github.com/ForcemCS/CICD\ima\test2.png)
+![test2](.\ima\test2.png)
 
 接下来手动触发（触发方式有很多种）
 
 ### 如何使用Jenkins创建CICD任务
 
-![cicd2](https://github.com/ForcemCS/CICD\ima\cicd2.png)
+![cicd2](.\ima\cicd2.png)
 
-![cicd3](https://github.com/ForcemCS/CICD\ima\cicd3.png)
+![cicd3](.\ima\cicd3.png)
 
 ### 自由风格的流水线作业
 
@@ -1021,15 +1021,15 @@ Credentials :增加和删除凭据
 
 虽然jenkins在其操作系统上的权限不是管理员的权限，但是在其工作目录下可以安装相应的工具（对于流水线风格的任务）（/var/lib/jenkins/）
 
-![工具配置1](https://github.com/ForcemCS/CICD\ima\工具配置1.png)
+![工具配置1](.\ima\工具配置1.png)
 
-![工具配置2](https://github.com/ForcemCS/CICD\ima\工具配置2.png)
+![工具配置2](.\ima\工具配置2.png)
 
 但是对于自由风格的项目来说，不会使用全局配置，而是使用的操作系统的工具。但是可以改为**调用顶层目标**
 
-![工具配置3](https://github.com/ForcemCS/CICD\ima\工具配置3.png)
+![工具配置3](.\ima\工具配置3.png)
 
-![test3](https://github.com/ForcemCS/CICD\ima\test3.png)
+![test3](.\ima\test3.png)
 
 流水线的定义：从某一位置加载一些数据（代码仓库），经过中间的一些步骤，输出至某一位置。而定义流水线又有不同的风格
 
@@ -1046,19 +1046,19 @@ Credentials :增加和删除凭据
 
 #### Maven项目构建简介
 
-![maven构建](https://github.com/ForcemCS/CICD\ima\maven构建.png)
+![maven构建](.\ima\maven构建.png)
 
 居于全局的配置工具，maven是在线安装的，如下修改其存储库（用来完成指定的依赖）
 
 + 基于插件的方式定义配置文件，将其作为可调用对象
 
-  ![config file provider](https://github.com/ForcemCS/CICD\ima\config file provider.png)
+  ![config file provider](.\ima\config file provider.png)
 
-  ![config file provider2](https://github.com/ForcemCS/CICD\ima\config file provider2.png)
+  ![config file provider2](.\ima\config file provider2.png)
 
-  ![config file provider3](https://github.com/ForcemCS/CICD\ima\config file provider3.png)
+  ![config file provider3](.\ima\config file provider3.png)
 
-  ![config file provider4](https://github.com/ForcemCS/CICD\ima\config file provider4.png)
+  ![config file provider4](.\ima\config file provider4.png)
 
   <mirror>
       <id>nexus-aliyun</id>
@@ -1067,7 +1067,7 @@ Credentials :增加和删除凭据
       <url>http://maven.aliyun.com/nexus/content/groups/public</url>
   </mirror>
 
-+ ![config file provider5](https://github.com/ForcemCS/CICD\ima\config file provider5.png)
++ ![config file provider5](.\ima\config file provider5.png)
 
   
 
@@ -1077,9 +1077,9 @@ Credentials :增加和删除凭据
 
 + 创建流水线
 
-  ![案例1](https://github.com/ForcemCS/CICD\ima\案例1.png)
+  ![案例1](.\ima\案例1.png)
 
-  ![案例2](https://github.com/ForcemCS/CICD\ima\案例2.png)
+  ![案例2](.\ima\案例2.png)
 
 + 准备servlet
 
@@ -1101,7 +1101,7 @@ Credentials :增加和删除凭据
 
 + 在部署到tomcat的时候，可以额外在安装一个插件Deploy to container（支持自动部署应用到tomcat环境中）
 
-  ![案例3](https://github.com/ForcemCS/CICD\ima\案例3.png)
+  ![案例3](.\ima\案例3.png)
 
 
 
@@ -1117,17 +1117,17 @@ Credentials :增加和删除凭据
   
   ```
 
-  ![案例4](https://github.com/ForcemCS/CICD\ima\案例4.png)
+  ![案例4](.\ima\案例4.png)
 
-  ![案例5](https://github.com/ForcemCS/CICD\ima\案例5.png)
+  ![案例5](.\ima\案例5.png)
 
-  ![案例6](https://github.com/ForcemCS/CICD\ima\案例6.png)
+  ![案例6](.\ima\案例6.png)
 
-  ![案例7](https://github.com/ForcemCS/CICD\ima\案例7.png)
+  ![案例7](.\ima\案例7.png)
 
-  ![案例8](https://github.com/ForcemCS/CICD\ima\案例8.png)
+  ![案例8](.\ima\案例8.png)
 
-  ![案例9](https://github.com/ForcemCS/CICD\ima\案例9.png)
+  ![案例9](.\ima\案例9.png)
 
   ![image-20230604203801827](C:\Users\kuigr\AppData\Roaming\Typora\typora-user-images\image-20230604203801827.png)
 
@@ -1208,9 +1208,9 @@ Credentials :增加和删除凭据
 
     + 先部署第一个
 
-      ![案例11](https://github.com/ForcemCS/CICD\ima\案例11.png)
+      ![案例11](.\ima\案例11.png)
 
-      ![案例12](https://github.com/ForcemCS/CICD\ima\案例12.png)
+      ![案例12](.\ima\案例12.png)
 
     + 以同样的方式部署两外两个实例
 
@@ -1264,9 +1264,9 @@ Credentials :增加和删除凭据
 
 + 自定义全局环境变量
 
-  ![参数变量1](https://github.com/ForcemCS/CICD\ima\参数变量1.png)
+  ![参数变量1](.\ima\参数变量1.png)
 
-  ![参数变量2](https://github.com/ForcemCS/CICD\ima\参数变量2.png)
+  ![参数变量2](.\ima\参数变量2.png)
 
   
 
@@ -1274,17 +1274,17 @@ Credentials :增加和删除凭据
 
 + 自定义构建过程中的参数
 
-  ![构建参数1](https://github.com/ForcemCS/CICD\ima\构建参数1.png)
+  ![构建参数1](.\ima\构建参数1.png)
 
-  ![构建参数2](https://github.com/ForcemCS/CICD\ima\构建参数2.png)
+  ![构建参数2](.\ima\构建参数2.png)
 
-  ![构建参数3](https://github.com/ForcemCS/CICD\ima\构建参数3.png)
+  ![构建参数3](.\ima\构建参数3.png)
 
   
 
 + 利用插件
 
-  ![构建参数4](https://github.com/ForcemCS/CICD\ima\构建参数4.png)
+  ![构建参数4](.\ima\构建参数4.png)
 
 ### 构建和推送Docker Image
 
@@ -1298,19 +1298,19 @@ Jenkins的多款插件都能实现Image构建和推送
 
   + 要构建的分支参数化配置
 
-    ![镜像推送测试4](https://github.com/ForcemCS/CICD\ima\镜像推送测试4.png)
+    ![镜像推送测试4](.\ima\镜像推送测试4.png)
 
   + clone项目源代码
 
-    ![推送镜像测试1](https://github.com/ForcemCS/CICD\ima\推送镜像测试1.png)
+    ![推送镜像测试1](.\ima\推送镜像测试1.png)
 
   + 修改maven的构建环境
 
-    ![推送镜像测试2](https://github.com/ForcemCS/CICD\ima\推送镜像测试2.png)
+    ![推送镜像测试2](.\ima\推送镜像测试2.png)
 
   + 构建步骤
 
-    ![推送镜像测试3](https://github.com/ForcemCS/CICD\ima\推送镜像测试3.png)
+    ![推送镜像测试3](.\ima\推送镜像测试3.png)
 
   + 接下来使用jenkins所在的主机的docker环境来构建镜像（如果要跨主机调用docker.sock需要打开一个监听的远程的套接字）
 
@@ -1322,7 +1322,7 @@ Jenkins的多款插件都能实现Image构建和推送
     然后重启jenkins
     ```
 
-    ![推送镜像测试5](https://github.com/ForcemCS/CICD\ima\推送镜像测试5.png)
+    ![推送镜像测试5](.\ima\推送镜像测试5.png)
 
     另外的解决办法（假设docker运行在主机上，）是修改[systemd unit file](/lib/systemd/system/docker.service),然后执行systemctl  daemon-reload && systemctl  restart docker.service，指明jenkins用户连接docker sock的[地址](系统管理---Docker Builder---tcp://12.0.0.1:2376)
 
@@ -1348,15 +1348,15 @@ Jenkins的多款插件都能实现Image构建和推送
 
   + 增加构建步骤
 
-    ![推送镜像测试6](https://github.com/ForcemCS/CICD\ima\推送镜像测试6.png)
+    ![推送镜像测试6](.\ima\推送镜像测试6.png)
 
-    ![推送镜像测试7](https://github.com/ForcemCS/CICD\ima\推送镜像测试7.png)
+    ![推送镜像测试7](.\ima\推送镜像测试7.png)
 
   + 将构建出来的镜像推送到harbor中
 
-    ![推送镜像1](https://github.com/ForcemCS/CICD\ima\推送镜像1.png)
+    ![推送镜像1](.\ima\推送镜像1.png)
 
-    ![推送镜像2](https://github.com/ForcemCS/CICD\ima\推送镜像2.png)
+    ![推送镜像2](.\ima\推送镜像2.png)
 
   
 
@@ -1366,17 +1366,17 @@ Jenkins的多款插件都能实现Image构建和推送
 
   + 删除上一个插件的内容
 
-    ![替换1](https://github.com/ForcemCS/CICD\ima\替换1.png)
+    ![替换1](.\ima\替换1.png)
 
   + 添加系统配置
 
-    ![docker云1](https://github.com/ForcemCS/CICD\ima\docker云1.png)
+    ![docker云1](.\ima\docker云1.png)
 
-    ![docker云2](https://github.com/ForcemCS/CICD\ima\docker云2.png)
+    ![docker云2](.\ima\docker云2.png)
 
-    ![docker云3](https://github.com/ForcemCS/CICD\ima\docker云3.png)
+    ![docker云3](.\ima\docker云3.png)
 
-    ![docker云4](https://github.com/ForcemCS/CICD\ima\docker云4.png)
+    ![docker云4](.\ima\docker云4.png)
 
   + 回到项目中
   + 
@@ -1443,19 +1443,19 @@ Jenkins的多款插件都能实现Image构建和推送
   保存上边的信息到jenkins上,可以拿着认证到apiserver上
   ```
 
-  ![认证凭据1](https://github.com/ForcemCS/CICD\ima\认证凭据1.png)
+  ![认证凭据1](.\ima\认证凭据1.png)
 
-  ![认证凭据2](https://github.com/ForcemCS/CICD\ima\认证凭据2.png)
+  ![认证凭据2](.\ima\认证凭据2.png)
 
-  ![认证凭据3](https://github.com/ForcemCS/CICD\ima\认证凭据3.png)
+  ![认证凭据3](.\ima\认证凭据3.png)
 
 + 在构建环境中使用token的文本信息
 
-  ![利用凭据](https://github.com/ForcemCS/CICD\ima\利用凭据.png)
+  ![利用凭据](.\ima\利用凭据.png)
 
   
 
-  ![参数2](https://github.com/ForcemCS/CICD\ima\参数2.png)
+  ![参数2](.\ima\参数2.png)
 
 + 执行shell步骤，来完成部署
 
@@ -1524,11 +1524,11 @@ Jenkins的多款插件都能实现Image构建和推送
 
   + 打开本地的Webhook和服务对本地网络的请求（因为我们的jenkins和gitlab处于同一主机，若不是则可以忽略）
 
-    ![通知触发1](https://github.com/ForcemCS/CICD\ima\通知触发1.png)
+    ![通知触发1](.\ima\通知触发1.png)
 
-    ![通知触发2 - 副本](https://github.com/ForcemCS/CICD\ima\通知触发2 - 副本.png)
+    ![通知触发2 - 副本](.\ima\通知触发2 - 副本.png)
 
-    ![通知触发3](https://github.com/ForcemCS/CICD\ima\通知触发3.png)
+    ![通知触发3](.\ima\通知触发3.png)
 
     
 
@@ -1540,19 +1540,19 @@ Jenkins的多款插件都能实现Image构建和推送
 
     这样在jenkins就完成了接受事件push
 
-    ![通知触发4](https://github.com/ForcemCS/CICD\ima\通知触发4.png)
+    ![通知触发4](.\ima\通知触发4.png)
 
-    ![触发通知5](https://github.com/ForcemCS/CICD\ima\触发通知5.png)
+    ![触发通知5](.\ima\触发通知5.png)
 
   + 再对代码仓库进行设定（spring-boot-helloWorld--Settings--Webhooks）
 
     这个Webhooks连接了代码仓库与jenkins,填写webhooks URL与secret token 事件类型（与kenkins保持一致）
 
-    ![触发通知7](https://github.com/ForcemCS/CICD\ima\触发通知7.png)
+    ![触发通知7](.\ima\触发通知7.png)
 
-    ![触发通知8 (2)](https://github.com/ForcemCS/CICD\ima\触发通知8 (2).png)
+    ![触发通知8 (2)](.\ima\触发通知8 (2).png)
 
-​              ![触发通知9](https://github.com/ForcemCS/CICD\ima\触发通知9.png)
+​              ![触发通知9](.\ima\触发通知9.png)
 
 + 接下来做一次测试
 
@@ -1572,25 +1572,25 @@ Jenkins的多款插件都能实现Image构建和推送
 
 + 在GitLab上，以仓库所关联的用户生成Access Token，并选择可访问的API
 
-  ![Gtoken1](https://github.com/ForcemCS/CICD\ima\Gtoken1.png)
+  ![Gtoken1](.\ima\Gtoken1.png)
 
-  ![Gtoken2](https://github.com/ForcemCS/CICD\ima\Gtoken2.png)
+  ![Gtoken2](.\ima\Gtoken2.png)
 
 + 在Jenkins上，将GitLab生成的Access Token保存为Credential
 
-  ![Gtoken3](https://github.com/ForcemCS/CICD\ima\Gtoken3.png)
+  ![Gtoken3](.\ima\Gtoken3.png)
 
 + 在Jenkins的系统配置，添加GitLab Connection的定义 （高级--测试）
 
-  ![Gtoken4](https://github.com/ForcemCS/CICD\ima\Gtoken4.png)
+  ![Gtoken4](.\ima\Gtoken4.png)
 
 + 在FreeStyle类型的流水线上，选择要使用的GitLab Connection
 
-  ![Gtoken5](https://github.com/ForcemCS/CICD\ima\Gtoken5.png)
+  ![Gtoken5](.\ima\Gtoken5.png)
 
 + 在FreeStyle类型的流水线上，添加“构建后操作”
 
-  ![Gtoken6](https://github.com/ForcemCS/CICD\ima\Gtoken6.png)
+  ![Gtoken6](.\ima\Gtoken6.png)
 
 #### Generic Webhook Trigger触发
 
@@ -1636,9 +1636,9 @@ SonarQube有四个关键组件
 + SonarQube Plugin
 + Code analysis Scanners：代码扫描器，扫描后将报告提交给SonarQube Server
 
-![SONAR1](https://github.com/ForcemCS/CICD\ima\SONAR1.png)
+![SONAR1](.\ima\SONAR1.png)
 
-![sonar2](https://github.com/ForcemCS/CICD\ima\sonar2.png)
+![sonar2](.\ima\sonar2.png)
 
 ### Install
 
@@ -1757,31 +1757,31 @@ Jenkins借助于SonarQube Scanner插件将SonarQube提供的代码质量检查�
 
   + 在SonarQube Server创建一个用户（添加相应的权限）新建用户的身份生成令牌，该令牌将被Jenkins用于通过相应的URL打开SonarQube 
 
-    ![sona1](https://github.com/ForcemCS/CICD\ima\sona1.png)
+    ![sona1](.\ima\sona1.png)
 
-    ![sona2](https://github.com/ForcemCS/CICD\ima\sona2.png)
+    ![sona2](.\ima\sona2.png)
 
-    ![sona3](https://github.com/ForcemCS/CICD\ima\sona3.png)
+    ![sona3](.\ima\sona3.png)
 
-    ![sona7](https://github.com/ForcemCS/CICD\ima\sona7.png)
+    ![sona7](.\ima\sona7.png)
 
 + 配置Jenkins的全局工具sonar-scanner
 
-  ![sona8](https://github.com/ForcemCS/CICD\ima\sona8.png)
+  ![sona8](.\ima\sona8.png)
 
 + 在SonarQube上添加回调Jenkins的Webhook
 
-  ![sona4](https://github.com/ForcemCS/CICD\ima\sona4.png)
+  ![sona4](.\ima\sona4.png)
 
-  ![sona5](https://github.com/ForcemCS/CICD\ima\sona5.png)
+  ![sona5](.\ima\sona5.png)
 
-  ![sona6](https://github.com/ForcemCS/CICD\ima\sona6.png)
+  ![sona6](.\ima\sona6.png)
 
 + 在Jenkins项目上调用sonar-scanner进行代码质量扫描
 
-  ![sona10](https://github.com/ForcemCS/CICD\ima\sona10.png)
+  ![sona10](.\ima\sona10.png)
 
-  ![sona11](https://github.com/ForcemCS/CICD\ima\sona11.png)
+  ![sona11](.\ima\sona11.png)
 
   
 
@@ -1795,7 +1795,7 @@ Jenkins借助于SonarQube Scanner插件将SonarQube提供的代码质量检查�
 
 Master节点执行
 
-![agent5](https://github.com/ForcemCS/CICD\ima\agent5.png)
+![agent5](.\ima\agent5.png)
 
 配置JNLP Agent创建分布式构建环境的简要步骤
 
@@ -1814,17 +1814,17 @@ Master节点执行
 
 + 在Master节点上，添加Agent节点的定义
 
-  ![agent1](https://github.com/ForcemCS/CICD\ima\agent1.png)
+  ![agent1](.\ima\agent1.png)
 
-  ![agent2](https://github.com/ForcemCS/CICD\ima\agent2.png)
+  ![agent2](.\ima\agent2.png)
 
-  ![agent3](https://github.com/ForcemCS/CICD\ima\agent3.png)
+  ![agent3](.\ima\agent3.png)
 
-  ![agent4](https://github.com/ForcemCS/CICD\ima\agent4.png)
+  ![agent4](.\ima\agent4.png)
 
 + 在Master节点上，获取Agent节点连接至Master时需要执行的命令（在agent执行）
 
-  ![agent6](https://github.com/ForcemCS/CICD\ima\agent6.png)
+  ![agent6](.\ima\agent6.png)
 
   ```
   root@node01:~# mkdir /home/jenkins/agent/   -p
@@ -1835,7 +1835,7 @@ Master节点执行
 
 + 项目使用agent
 
-  ![agent7](https://github.com/ForcemCS/CICD\ima\agent7.png)
+  ![agent7](.\ima\agent7.png)
 
 #### SSH Agent
 
@@ -1851,11 +1851,11 @@ passwd: password updated successfully
 
 ```
 
-![agent08](https://github.com/ForcemCS/CICD\ima\agent08.png)
+![agent08](.\ima\agent08.png)
 
-![agent9](https://github.com/ForcemCS/CICD\ima\agent9.png)
+![agent9](.\ima\agent9.png)
 
-![agent10](https://github.com/ForcemCS/CICD\ima\agent10.png)
+![agent10](.\ima\agent10.png)
 
 #### Container
 
@@ -1865,13 +1865,13 @@ passwd: password updated successfully
 
 + JNLP  (agent连接master)
 
-  ![agent11](https://github.com/ForcemCS/CICD\ima\agent11.png)
+  ![agent11](.\ima\agent11.png)
 
-  ![agent02](https://github.com/ForcemCS/CICD\ima\agent02.png)
+  ![agent02](.\ima\agent02.png)
 
-  ![agent13](https://github.com/ForcemCS/CICD\ima\agent13.png)
+  ![agent13](.\ima\agent13.png)
 
-  复制Master的密钥信息，然后修改agentjnlp的docker compose[文件](https://github.com/ForcemCS/CICD\ima\docker-compose-inbound-agent.yml)
+  复制Master的密钥信息，然后修改agentjnlp的docker compose[文件](.\ima\docker-compose-inbound-agent.yml)
 
   ```
   root@slb01:~/learning-jenkins-cicd/07-jenkins-agents# docker compose  -f  ./docker-compose-inbound-agent.yml  up   -d
@@ -1944,23 +1944,23 @@ passwd: password updated successfully
 
 + 在Master安装插件（Docker plugin ）,然后进行相关配置（也就是对agent的配置）
 
-  ![docker1](https://github.com/ForcemCS/CICD\ima\docker1.png)
+  ![docker1](.\ima\docker1.png)
 
-  ![docker2](https://github.com/ForcemCS/CICD\ima\docker2.png)
+  ![docker2](.\ima\docker2.png)
 
 + 选择连接方式（SSH或者JNLP）的模板
 
   + JNLP
 
-    ![docker4](https://github.com/ForcemCS/CICD\ima\docker4.png)
+    ![docker4](.\ima\docker4.png)
 
-    ![DOCKER5](https://github.com/ForcemCS/CICD\ima\DOCKER5.png)
+    ![DOCKER5](.\ima\DOCKER5.png)
 
-    ![DOCKER6](https://github.com/ForcemCS/CICD\ima\DOCKER6.png)
+    ![DOCKER6](.\ima\DOCKER6.png)
 
     
 
-    ![DOCKER7](https://github.com/ForcemCS/CICD\ima\DOCKER7.png)
+    ![DOCKER7](.\ima\DOCKER7.png)
 
     然后在指定的项目上选取响应的Agent节点
 
@@ -2100,13 +2100,13 @@ jenkins@jenkins-5c84664d4-5km8c:/$ cat  /var/run/secrets/kubernetes.io/serviceac
 eyJhbGciOiJSUzI1NiIsImtpZCI6ImVERm1IejdEVnlwMXRiQmpTRjcyUFBvSnhNNUk2ZjJHS1gtUjRjSUNhYTgifQ.eyJhdWQiOlsiYXBpIiwiaXN0aW8tY2EiXSwiZXhwIjoxNzE4MjM5OTUzLCJpYXQiOjE2ODY3MDM5NTMsImlzcyI6Imh0dHBzOi8va3ViZXJuZXRlcy5kZWZhdWx0LnN2YyIsImt1YmVybmV0ZXMuaW8iOnsibmFtZXNwYWNlIjoiamVua2lucyIsInBvZCI6eyJuYW1lIjoiamVua2lucy01Yzg0NjY0ZDQtNWttOGMiLCJ1aWQiOiIzMGVhY2IxOS03ODhmLTQ2NmMtYmI1Ny0yZTk0MGFkNGI3MTMifSwic2VydmljZWFjY291bnQiOnsibmFtZSI6ImplbmtpbnMtbWFzdGVyIiwidWlkIjoiZDQwMDAxYmQtNWNmNC00ZTNhLWFjOTEtZTNkZWYzOTkwZTY1In0sIndhcm5hZnRlciI6MTY4NjcwNzU2MH0sIm5iZiI6MTY4NjcwMzk1Mywic3ViIjoic3lzdGVtOnNlcnZpY2VhY2NvdW50OmplbmtpbnM6amVua2lucy1tYXN0ZXIifQ.c8KoX_te5gggtWtLJly_PDb1sMPd3PrhbRJOO6upYqhPS2W_bjVlI9HJFwwJo5SxlL0g6bJUOtL14gn4AVit7MVzjHTpL2wI8Q7uXsr6KD4fIC-P6j8v6FQR6sY0nZhVb-y4FnWFfSHtu1LUDZpZ1vIBTPwzVqLkBtguLfoL1lbabAWbl_Mu8adqIpJDXC0JSOEfet2U5kTUMDTZiboGFwy63pf9M79JLq32BY3meDQ8iktFnRJzHgWF_r_ep85whLWMYmvafGnjYiJ5J_7HxPWrNee9BmqoUfdkYhxRnOub5vD-1FmVw4c8_gl_We8a6dqljeE0UGaeVldpF0xIAQ
 ```
 
-![ks1](https://github.com/ForcemCS/CICD\ima\ks1.png)
+![ks1](.\ima\ks1.png)
 
-![ks2](https://github.com/ForcemCS/CICD\ima\ks2.png)
+![ks2](.\ima\ks2.png)
 
-![ks3](https://github.com/ForcemCS/CICD\ima\ks3.png)
+![ks3](.\ima\ks3.png)
 
-![ks4](https://github.com/ForcemCS/CICD\ima\ks4.png)
+![ks4](.\ima\ks4.png)
 
  因为Pod Agent要与集群外部的服务建立联系，必须做dns的解析工作，可以借助于coredns实现,修改其配置文件，将解析记录传递给每个Pod
 
@@ -2170,7 +2170,7 @@ jenkins-pvc       Bound    pvc-dba54383-1fa9-4f66-b4d2-074bf4884084   10Gi      
 pvc-maven-cache   Bound    pvc-33c957b8-7985-4c98-8692-52be3b4f2d9f   10Gi       RWX            longhorn       14H
 ```
 
-![ks5](https://github.com/ForcemCS/CICD\ima\ks5.png)
+![ks5](.\ima\ks5.png)
 
 
 
@@ -2184,7 +2184,7 @@ canary: 在现有应用的pod，再增加少量的pod，并引入少量的流量
 
 ### 架构组件
 
-![argo1](https://github.com/ForcemCS/CICD\ima\argo1.png)
+![argo1](.\ima\argo1.png)
 
 + Rollout Controller
 
