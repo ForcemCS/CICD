@@ -1,0 +1,35 @@
+Started by user Administrator
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/test-freestyle
+The recommended git tool is: NONE
+using credential gitlab-user-jerry-credential
+Cloning the remote Git repository
+Cloning repository http://gitlab.wukui.com/devops/spring-boot-helloWorld.git
+ > git init /var/lib/jenkins/workspace/test-freestyle # timeout=10
+Fetching upstream changes from http://gitlab.wukui.com/devops/spring-boot-helloWorld.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- http://gitlab.wukui.com/devops/spring-boot-helloWorld.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://gitlab.wukui.com/devops/spring-boot-helloWorld.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 27814e783a15fe40a70d48c8827c22d928de4a26 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 27814e783a15fe40a70d48c8827c22d928de4a26 # timeout=10
+Commit message: "Merge branch 'feature/001' into 'main'"
+First time build. Skipping changelog.
+[test-freestyle] $ /bin/bash /tmp/jenkins16221486966079784222.sh
+/var/lib/jenkins/workspace/test-freestyle
+[test-freestyle] $ /bin/bash /tmp/jenkins3065543856925930504.sh
+total 28
+-rw-r--r-- 1 jenkins jenkins   333 Jun  4 10:48 Dockerfile
+-rw-r--r-- 1 jenkins jenkins  2645 Jun  4 10:48 Jenkinsfile
+-rw-r--r-- 1 jenkins jenkins 11357 Jun  4 10:48 LICENSE
+-rw-r--r-- 1 jenkins jenkins    66 Jun  4 10:48 README.md
+drwxr-xr-x 2 jenkins jenkins   120 Jun  4 10:48 deploy
+-rw-r--r-- 1 jenkins jenkins  1633 Jun  4 10:48 pom.xml
+drwxr-xr-x 2 jenkins jenkins    56 Jun  4 10:48 rollouts
+drwxr-xr-x 4 jenkins jenkins    30 Jun  4 10:48 src
+Finished: SUCCESS
