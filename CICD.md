@@ -64,7 +64,7 @@ git配置有三个级别，分别对应三个文件
 
 详细内容参见官网https://git-scm.com/doc
 
-<img src=".\ima\基础命令.PNG" alt="基础命令" style="zoom:66%;" />
+<img src=".\ima\基础命令.png" alt="基础命令" style="zoom:66%;" />
 
 查看提交：
 
@@ -80,11 +80,11 @@ git log --author="USER.NAME"
 
 + 新增文件
 
-  <img src=".\ima\文件状态对比1.PNG" alt="基础命令" style="zoom:66%;" />
+  <img src=".\ima\文件状态对比1.png" alt="基础命令" style="zoom:66%;" />
 
 + 修改文件
 
-  <img src=".\ima\文件状态对比2.PNG" alt="基础命令" style="zoom:66%;" />
+  <img src=".\ima\文件状态对比2.png" alt="基础命令" style="zoom:66%;" />
 
 对比文件的变动
 
@@ -2083,7 +2083,7 @@ Hq0S/L22Sih8/l1xVDe4yM9F59IyppXM04l3khqqf1NbRN1GWc1raL20KD/Tp2UF
 AnLVr9jdDMdDP7vC6pkjc3aMxKEjjvx0R6bAIBvZP8y9WUdVRphNEA7fQgz4Y0PJ
 owIDAQABo0IwQDAOBgNVHQ8BAf8EBAMCAQYwDwYDVR0TAQH/BAUwAwEB/zAdBgNV
 HQ4EFgQUCMlzyn/3AQ1nAywkOf/1kuIDaTMwDQYJKoZIhvcNAQELBQADggEBAM19
-Q6lpnG02TdiOLW3yj0OA2re0Feank23ChWj3vzrvvfG+HNz+xR8hw/fDudwtMvJV
+Q6lpng02TdiOLW3yj0OA2re0Feank23ChWj3vzrvvfG+HNz+xR8hw/fDudwtMvJV
 xtZ8YsU6YNXt/C1Ag0Gpm5xdF8JL4jFUKDs10m+GL5c83/sJsS9M6mc0u/d4dSH0
 Pzg3SRcDzU+oEtk3dEQdRPcDkEFrT7RNysQth+kJtTYZpSJBt3RU3M95wBlWyPTb
 LBRfPrVWeEA6JKiTAT23l0j7cGfvzwuxrZ8i2Upyymy3Jr8RERcGvaMniD7xBUr1
