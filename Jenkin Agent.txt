@@ -15,7 +15,7 @@
   可以通过RBAC的相关知识,创建一个服务账号，当然也可以获取集群已经存在的sa的token---jenkins地址(http://jenkins.wukui.com:8080)---jenkins通道(12.0.0.5:50000))
 4.添加pod模板,创建pod，以便用来运行不同的stage.多个模板可以实现不同功效的agent
 5.一个Pod模板中可以运行多个cintainer，以便实现不同的stage,而且他们的存储是共享的
-5.需要注意的是当k8s集群上的agent联系外部的服务时,可以通过修改coredns的配置文件来实现
+5.需要注意的是当k8s集群上的agent联系外部的服务时,可以通过修改coredns的配置文件来为每个pod添加dns解析记录
 6.更重要的是,我们不应该在pod中的某一个container内来安装各种工具来实现job,而是通过不同的image来实现不同的stage
 7.在satge中若没有明确指定是在哪个container运行的，则是使用默认的lnlp容器来完成的
 8.其中有一个特殊的容器镜像可以使用，那就是bind,这个镜像可以认为提供了dokcer的客户端程序，可以利用宿主机的docker engine来实现相关的功能，例如build push 等
